@@ -1,0 +1,85 @@
+/**{outline: 1px solid rgba(255,0,0,0.4) }*/
+body{
+     margin-right: 200px;
+     margin-left: 200px;
+     font-family:  Serif, Arial;
+     font-size: 24px;
+	}
+
+header{ 
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	}
+header img{ 
+	width: 100%;
+	}
+
+nav{ 
+   	border-top: 1px solid black;
+   	border-bottom : 1px solid black;
+    width: 100%;
+ }
+nav li{
+	list-style-type:none;
+	display: inline;	
+	margin: 10px;
+	font-size: 20px;	
+	border-right: 1px solid black;
+	padding-right:  25px;
+
+	}
+
+.parra img{ 
+	width: 100%;
+	margin: 8px 0px 8px 0px;
+	}
+.parra .raya{
+		margin-left: 300px;
+		}
+p{ 
+	text-align: center;
+}
+
+
+.raya{
+		height: 3px;
+		width: 150px;
+		background-color: black;
+		margin: 0px;
+		}
+
+.gran{ 
+	width: 100%;
+}
+.contenedor{ 
+	margin-left: 50px;
+	display: inline-block;
+}
+.contenedor div { 
+	display: inline-block;
+	margin: 10px;
+}
+
+.contenedor div p{ 
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+	font-size: 12px;
+	display: inline;
+
+}
+
+.contenedor img{ 
+	-webkit-filter: brightness(0.5);
+	
+	
+}
+.contenedor img:hover{ 
+	-webkit-filter: brightness(1);
+	
+}
+
+
+
+
